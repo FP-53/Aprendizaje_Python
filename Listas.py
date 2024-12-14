@@ -29,3 +29,24 @@ print(type(mi_otra_lista))
 
 print(mi_otra_lista[0])
 # para seleccionar un valor en concreto se coloca 'nombre de la lista[numero del elemento]', el primer elemento de una lista siempre es el 0, el segundo es el 1 y asi 
+
+print(mi_otra_lista[0])
+print(mi_otra_lista[1])
+
+#los numeros negativos cuentan desde el ultimo al primero empezando por -1
+print(mi_otra_lista[-1])
+print(mi_otra_lista[-3])
+
+#si el numero no es posible buscarlo pq dicho numero no esta en la lista, causa IndexError 
+#ejemplo print(mi_otra_lista[5])
+
+#colocar nombre_de_lista.count(x) te dira cuantos elementos iguales existen de el valor que coloques entra los parentesis 
+print(mi_otra_lista.count('Fidel'))
+print(mi_lista.count(30))
+
+
+#se puede seleccionar los valores de una lista para crear variables 
+#se colocan en el mismo orden que se encuentra dentro de la lista para que encajen correctamente con cada valor 
+edad, altura, nombre, apellido = mi_otra_lista
+print(nombre)
+
