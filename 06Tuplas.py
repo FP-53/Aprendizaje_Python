@@ -13,3 +13,4 @@ A efectos basicos es una lista, la diferencia es:
     - Las tuplas son listas fijas que no pueden añadir, eliminar o cambiar valores, son valores consantes que no se pueden ca,biqar mediante alguna funcion 
     - Si se pueden concatenar varias tuplas entre ellas 
 """
+
