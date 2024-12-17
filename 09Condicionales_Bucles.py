@@ -1,7 +1,7 @@
 """     CONDICIONALES y BUCLES       """
 
 print("vamos a adivinar tu numero")
-my_value = int(input("Dime un numero:"))
+my_value = int(input("Dime un numero POSITIVO:"))
 
 
 if my_value%2==1: 
@@ -25,7 +25,7 @@ if my_value == 100:
 """
 Tipos de bucles
 - While: necesita una condicion que se cumpla para funcionar, se repite mientras se cumpla esa funcion
-- 
+- For: itera mas de un elemento en una lista, itera 1 vez por cada elemento de la lista y en cada uno de ellos
 - 
 """
 diference=0
